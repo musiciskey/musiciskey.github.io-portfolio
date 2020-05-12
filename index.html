@@ -5,124 +5,184 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Hero Blocks Showcase | IBAT Web Design Portoflio Project | Mary Smith</title>
-	
-	<meta name="description" content="Showcase of hero blocks with various fonts, and a range of background colour, gradient and image options.">
+	<title>Smooth Smoothies | IBAT Web Design Portfolio Project | Mark Reid</title>
 
-	<meta name="author" content="Mary Smith">
+	<meta name="description" content="Dublin's finest smoothie store. Offering tasty alternatives to sugary and unhealthy snacks for busy, on-the-go, on-trend professionals.">
 
-	<link rel="stylesheet" href="assets/css/hero.css">
+	<meta name="author" content="Mark Reid">
+
+	<link href="assets/css/style.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,800,800i" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
 
-	<!-- Link to icons for Font Awesome 5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-
+	 <!-- Link to icons for Font Awesome 5 -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    
 
 	<!-- Styles for Cookie Consent Popup Message  -->
-	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">	
+	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243940-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159183092-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-		gtag('config', 'UA-122243940-1');
+		gtag('config', 'UA-159183092-1');
 	</script>
 
 </head>
 
 
+
 <body>
 
-	
-		<div class="hero-block-1">
-			<h1>Hello, IBATCrypto</h1>
-			<h2>Announcing the smart and fast way to accept payments in crypto currencies.</h2>
-		 </div>
-	
-
-	
-	<div class="hero-block-2">
-		<h1>Hi, I'm Sheila.</h1>
-		<h2>I'm a digital and web designer from Dublin, Ireland. On this website I showcase examples of my work.</h2>
+	<!-- Begin hero block -->
+	<div class="container-hero">
+		<h1>Smooth Smoothies</h1>
+		<h2>Where flavour meets goodness</h2>
 	</div>
+	<!-- End hero block -->
 
-	<div class="hero-block-3">
-		<h1>IBAT Bank</h1>
-		<h2>Ask about our low-cost mortgages and car loans.</h2>
-	</div>
+   
 
-	<div class="hero-block-4">
-		<h1>Relax</h1>
-		<h2>Enjoy a leisurely getaway at our luxury hotel.</h2>
-	</div>
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox">
+		<div class="item-1">
+			<p>Our world-class smoothies are great at any time of the day and offer a tasty alternative to sugary and unhealthy snacks!</p>
+		</div>
+	</div><!-- End parent flexbox container -->
 
-	<div class="hero-block-5">
-		<h1>Happy Trails</h1>
-		<h2>The best bike tours in the great outdoors</h2>
-	</div>
-
-	<div class="hero-block-6">
-		<h1>Collaboration Software</h1>
-		<h2>For teams who want results at lower cost in less time.</h2>
-	</div>
-
-	 <!-- Begin HTML footer -->
     
-	 <div class="container-footer">
 
-        <h4>Mark Reid, web designer</h4>
-        <h5>Excellence in digital creation</h5>
+	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-watermelon">
 
-        <ul class="footer-links">
-            <li><a href="../../index.html">Home</a>
-            <li><a href="../index.html">Portfolio</a>
-            <li><a href="../../privacy.html">Privacy</a>
+		<div class="item-2">
+			<h2>Watermelon Wonder</h2>
+			<p>Watermelon is a delicious and refreshing fruit that's also good for you. It is high in vitamin C, vitamin A and many healthy plant compounds, but contains only 60 calories per smoothie. And because watermelon has a high water content, this smoothie is hydrating and helps you feel full.</p>
+		</div>
 
-        </ul>
+		<div class="item-2">
+			<img src="assets/img/watermelon.png" alt="Watermelon Wonder smoothie">
+		</div>
+
+	</div><!-- End parent flexbox container -->
+
+   
+    
+	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-apple">
+
+		<div class="item-2">
+			<img src="assets/img/apple.png" alt="Apple Delight smoothie">
+		</div>
+
+		
+		<div class="item-2">
+			<h2>Apple Delight</h2>
+			<p>Apples are an awesome source of fibre and vitamin C. They also contain polyphenols, which can have numerous health benefits.  Apples have been linked to a lower risk of heart disease because they contain soluble fibre that can help lower blood cholesterol. Studies have also shown that eating apples reduces the risk of type 2 diabetes.</p>
+        </div>	
+
+  		
+    </div><!-- End parent flexbox container -->
+
+
+
+	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-blueberry">
+
+		<div class="item-2">
+			<h2>Blueberry Surprise</h2>
+			<p>One of our top sellers. Blueberries are so tasty that many people consider them their favourite fruit. In fact, because they are low in calories and incredibly good for you. Blueberries are often labeled a superfood. Blueberries have the highest antioxidant capacity of all the popular fruits and vegetables.</p>
+		</div>
+
+		<div class="item-2">
+			<img src="assets/img/blueberry.png" alt="Blueberry Surprise smoothie">
+		</div>
+
+	</div><!-- End parent flexbox container -->
+
+    <!-- Begin blank lines-->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- End blank lines-->
+
+	<!-- Begin parent flexbox container for two-column layout (.item-2) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-lemon">
+
+		<div class="item-2">
+			<img src="assets/img/lemon.png" alt="Lemon Luxury smoothie">
+		</div>s
+
+		
+		<div class="item-2">
+			<h2>Lemon Luxury</h2>
+			<p>Add zest to your day with our delicious Lemon Luxury smoothie. As a citrus fruit, lemons are high in vitamin C, which is a primary antioxidant that helps reduce your risk of cardiovascular disease and lowers blood pressure. Refreshing and energising - that's our Lemony Luxury smoothie!</p>
+        </div>
         
-        <ul class="footer-icons">
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
+		
+	</div><!-- End parent flexbox container -->
 
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
+		<!-- =============== BEGIN EMAIL SIGN UP FORM HTML ============= -->
 
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
+	<!-- Begin container for email signup form -->
+	<div class="container-form-email-signup">
 
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
+		<h3>Join our email list</h3>
+<p>Keep me up-to-date with your latest healthy smoothie recipes and special offers.</p>  
 
-            <li>
-                <a href="https://www.instagram.com/ibatcollegedublin/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            
-         </ul>                
-        
-        <a class="privacy-legal" href="privacy.html">Privacy & Legal</a>
+        <!-- Form begins here -->
+		<form id="email-signup-form" name="email-signup-form" accept-charset="utf-8"  method="post" action="https://formspree.io/markreid72@gmail.com">
+
+			<!-- Begin email sign up form fields -->
+			
+			<div class="flex-row">
+				<label for="email-address">Email:</label>
+                <input type="text" id="email-address" name="email-address" placeholder="Your email address" maxlength="80" autocapitalize="none" required>
+                <input type="hidden" name="_subject" id="email-subject" value="Email Signup Form Submission">
+				<button id="btn-submit" type="submit" class="btn-submit">Try it free <i class="fas fa-envelope"></i></button>  
+			</div>
+			<!-- End email sign up form fields -->
+		</form>
+        <!-- Form ends here -->
     </div>
+	<!-- End container for email signup form -->
+	<!-- =============== END EMAIL SIGN UP FORM HTML ============= -->
+
+	<!-- Begin HTML footer -->
+
+	<div class="container-footer">
+
+		<div class="item-3">
+
+			<h4>Site Map</h4>
+			<p><i class="fas fa-home fa-fw"></i><a href="../../index.html">Home</a>
+			<p><i class="fas fa-file-alt fa-fw"></i><a href="../index.html">Portfolio</a>
+			<p><i class="fas fa-lock fa-fw"></i><a href="../../privacy.html">Privacy</a>
+		
+		</div>
+
+		<div class="item-3">
+			<h4>About Me</h4>
+			<p>Hi, I'm Mary Smith. I'm a web designer and developer.</p>
+			
+			<p>I created this sample web page to showcase some of my digital creation skills.</p>
+		</div>
+
+		<div class="item-3">
+			<h4>Contact</h4>
+			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:ibat.training@gmail.com">Email</a></p>
+			<p><i class="fab fa-github-square fa-fw"></i><a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
+			<p><i class="fab fa-linkedin fa-fw"></i><a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">Linkedin</a></p>
+		</div>
+		
+	</div>
 	
 	<!-- End HTML footer -->
+
 
 	<!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
@@ -137,11 +197,10 @@
 			}
 		},
 	  	"content": {
-			"href": "https://ibat-web-dev.github.io/privacy.html"
+			"href": "https://musiciskey.github.io/privacy.html"
 		}
 	});
 	</script>
 
 </body>
 </html>
-
